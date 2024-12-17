@@ -1,9 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .container {
-  margin: 0 150px;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 .header_main {
   display: flex;
@@ -23,8 +25,18 @@
   font-weight: 500;
   color: #4f5665;
 }
+.burger {
+  width: 60px;
+  height: 60px;
+  display: none;
+}
+.burger_href {
+  text-decoration: none;
+  display: none;
+}
 .logo_href {
   text-decoration: none;
+  line-height: 20px;
 }
 .logo_text_vpn {
   font-size: 20px;
@@ -62,6 +74,7 @@
   padding: 6px 20px;
   border: none;
   cursor: pointer;
+  white-space: nowrap;
 }
 .sign_up:hover {
   background-color: #f53838;
@@ -81,6 +94,7 @@
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  white-space: nowrap;
 }
 .section1_btn {
   background-color: #f53838;
@@ -107,6 +121,8 @@
 }
 .section1_right {
   margin: 0;
+  display: flex;
+  align-items: center;
 }
 .section1_title {
   font-size: 50px;
@@ -215,7 +231,7 @@
   padding-bottom: 40px;
   display: flex;
   justify-content: space-between;
-  gap: 170px;
+  gap: 40px;
   align-items: center;
 }
 .section2_list {
@@ -241,6 +257,7 @@
   display: flex;
   margin: 0;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .section3_li {
   margin: 0;
@@ -415,7 +432,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 230px;
+  gap: 50px;
   padding-bottom: 100px;
 }
 .footer_lefttile {
@@ -520,7 +537,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 340px;
+  gap: 50px;
   padding: 58.5px 70px;
   box-shadow: 0px 10px 70px rgba(13, 16, 35, 0.06);
   border-radius: 10px;
@@ -735,4 +752,374 @@ footer {
 .mySwiper {
   width: 100%;
   overflow: hidden;
+}
+
+/* Мобильные устройства */
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  .section4_bottom {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .section4_bottom img {
+    width: 14%;
+  }
+  .section4_title {
+    text-align: center;
+  }
+  .section4_description {
+    text-align: center;
+  }
+  .section3_description {
+    text-align: center;
+  }
+  .swiper-slide {
+    min-width: 460px;
+  }
+  .section3_plans {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .burger {
+    display: block;
+  }
+  .burger_href {
+    display: block;
+  }
+  .navbar {
+    display: none;
+  }
+  .header_btns {
+    display: none;
+  }
+  .section1_left {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section1_main {
+    gap: 60px;
+    padding-top: 20px;
+  }
+  .section1_title {
+    text-align: center;
+  }
+  .section1_desctiption {
+    text-align: center;
+    padding: 0 40px;
+  }
+  .section4_top {
+    padding-bottom: 40px;
+  }
+  .section4_main {
+    padding-top: 30px;
+  }
+  .section3_main {
+    padding-bottom: 30px;
+  }
+  .section1_top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section4_middle img {
+    max-width: 300px;
+  }
+  .section2_main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section2_left {
+    order: 1;
+  }
+  .section2_list {
+    align-items: center;
+  }
+  .section2_title {
+    text-align: center;
+  }
+  .section2_description {
+    text-align: center;
+  }
+  .section1_bottom {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  .section1_divider {
+    height: 2px;
+    width: 125.5px;
+  }
+  .footer_main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer_right {
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .section6_main {
+    flex-direction: column;
+  }
+  .section5_title {
+    text-align: center;
+  }
+  .section1_right img {
+    width: 100%;
+  }
+  .section2_left > img {
+    width: 100%;
+  }
+  .section5_description {
+    text-align: center;
+  }
+}
+
+/* Планшеты в портретной ориентации */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .container {
+    max-width: 465px;
+  }
+  .section4_bottom {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .section4_bottom img {
+    width: 17%;
+  }
+  .section4_title {
+    text-align: center;
+  }
+  .section4_description {
+    text-align: center;
+  }
+  .section3_description {
+    text-align: center;
+  }
+  .swiper-slide {
+    min-width: 460px;
+  }
+  .section3_plans {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .burger {
+    display: block;
+  }
+  .burger_href {
+    display: block;
+  }
+  .navbar {
+    display: none;
+  }
+  .header_btns {
+    display: none;
+  }
+  .section1_left {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section1_main {
+    gap: 60px;
+    padding-top: 20px;
+  }
+  .section1_title {
+    text-align: center;
+  }
+  .section1_desctiption {
+    text-align: center;
+    padding: 0 40px;
+  }
+  .section4_top {
+    padding-bottom: 40px;
+  }
+  .section4_main {
+    padding-top: 30px;
+  }
+  .section3_main {
+    padding-bottom: 30px;
+  }
+  .section1_top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section4_middle img {
+    max-width: 460px;
+  }
+  .section2_main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section2_left {
+    order: 1;
+  }
+  .section2_list {
+    align-items: center;
+  }
+  .section2_title {
+    text-align: center;
+  }
+  .section2_description {
+    text-align: center;
+  }
+  .section1_bottom {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  .section1_divider {
+    height: 2px;
+    width: 125.5px;
+  }
+  .footer_main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer_right {
+    gap: 40px;
+  }
+  .section6_main {
+    flex-direction: column;
+  }
+  .section5_title {
+    text-align: center;
+  }
+  .section1_right img {
+    width: 100%;
+  }
+  .section2_left > img {
+    width: 100%;
+  }
+  .section5_description {
+    text-align: center;
+  }
+}
+
+/* Планшеты и небольшие ноутбуки */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    max-width: 753px;
+  }
+  .section4_bottom {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .swiper-slide {
+    min-width: 460px;
+  }
+  .section4_middle img {
+    max-width: 700px;
+  }
+  .section3_plans {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .section1_right img {
+    width: 550px;
+  }
+  .section5_description {
+    text-align: center;
+    padding: 0 50px;
+  }
+  .section2_left > img {
+    width: 400px;
+  }
+  .footer_main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section1_bottom {
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+  .burger {
+    display: block;
+  }
+  .burger_href {
+    display: block;
+  }
+  .navbar {
+    display: none;
+  }
+  .header_btns {
+    display: none;
+  }
+  .section1_top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section1_left {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section1_main {
+    gap: 30px;
+  }
+  .section1_title {
+    text-align: center;
+  }
+  .section1_desctiption {
+    text-align: center;
+    padding: 0 40px;
+  }
+  .section4_top {
+    padding-bottom: 40px;
+  }
+  .section4_main {
+    padding-top: 30px;
+  }
+  .section3_main {
+    padding-bottom: 30px;
+  }
+  .section1_main {
+    padding-top: 20px;
+  }
+}
+
+/* Десктопы */
+@media screen and (min-width: 1025px) {
+  .container {
+    max-width: 1009px;
+  }
+  .swiper-slide {
+    min-width: 460px;
+  }
+  .section4_bottom {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section4_middle img {
+    max-width: 800px;
+  }
+  .section1_right img {
+    width: 500px;
+  }
+}
+
+/* Большие экраны */
+@media screen and (min-width: 1441px) {
+  .container {
+    max-width: 1440px;
+  }
+  .section4_middle img {
+    max-width: 100%;
+  }
 }
