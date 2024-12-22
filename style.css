@@ -76,6 +76,7 @@
   border: none;
   cursor: pointer;
   white-space: nowrap;
+  text-decoration: none;
 }
 .header__button--sign-up:hover {
   background-color: #f53838;
@@ -96,6 +97,7 @@
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
   white-space: nowrap;
+  text-decoration: none;
 }
 .hero__button {
   background-color: #f53838;
@@ -383,6 +385,7 @@
   margin: 0;
   transition: background-color 0.3s, color 0.3s;
   cursor: pointer;
+  text-decoration: none;
 }
 .plans__button:hover {
   color: white;
