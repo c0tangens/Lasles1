@@ -1,29 +1,16 @@
-const buttons = document.querySelectorAll('.section3_button');
+const buttons = document.querySelectorAll('.plans__button');
 
 buttons.forEach(button => {
-    // Находим плашку, соответствующую кнопке
-    const tile = button.closest('.section3_tile');
+    const tile = button.closest('.plans__item');
 
-    // Добавляем событие наведения на кнопку
     button.addEventListener('mouseenter', () => {
-        tile.classList.add('section3_tile_hovered'); // Добавляем класс при наведении
+        tile.classList.add('plans__item-hovered');
     });
 
     button.addEventListener('mouseleave', () => {
-        tile.classList.remove('section3_tile_hovered'); // Убираем класс при уходе курсора
+        tile.classList.remove('plans__item-hovered');
     });
 });
-// var swiper = new Swiper(".mySwiper", {
-//     loop: true, 
-//     navigation: {
-//       nextEl: ".custom-next", // Указываем свой класс для кнопки "вперед"
-//       prevEl: ".custom-prev", // Указываем свой класс для кнопки "назад"
-//     },
-//     pagination: {
-//       el: ".custom-pagination", // Свой класс для пагинации
-//       clickable: true,
-//     },
-//   });
   
   
 
