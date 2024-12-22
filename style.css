@@ -54,6 +54,7 @@
   gap: 40px;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 .navbar__link {
   text-decoration: none;
@@ -521,6 +522,7 @@
   gap: 10px;
   margin: 0;
   margin-top: 20px;
+  list-style-type: none;
 }
 .footer__links {
   margin: 0;
