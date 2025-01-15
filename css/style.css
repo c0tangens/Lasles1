@@ -496,6 +496,7 @@
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   width: 340px;
+  line-height: 30px;
 }
 .footer__socials {
   margin: 0;
