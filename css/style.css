@@ -535,7 +535,7 @@
   align-items: center;
   gap: 10px;
   margin: 0;
-  margin-bottom: 8px;
+  margin-bottom: -8px;
 }
 .footer__logo-text {
   font-size: 20px;
@@ -557,7 +557,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 122px;
+  gap: 124.5px;
   margin-top: 5px;
 }
 .footer__description-highlight {
