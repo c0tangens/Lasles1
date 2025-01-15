@@ -650,6 +650,8 @@
   color: #0b132a;
   margin: 0;
   margin-bottom: 20px;
+  width: 420px;
+  text-align: center;
 }
 .reviews__description {
   color: #4f5665;
@@ -658,6 +660,8 @@
   font-size: 16px;
   margin: 0;
   line-height: 30px;
+  width: 520px;
+  text-align: center;
 }
 .reviews__header {
   margin: 0;
@@ -756,8 +760,8 @@
 .reviews .custom-next,
 .reviews .custom-prev {
   color: #000;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   background-color: transparent;
   border-radius: 50%;
   display: flex;
@@ -788,7 +792,7 @@
   transform: rotate(180deg);
 }
 .reviews .custom-pagination {
-  display: flex !important;
+  display: flex;
   gap: 10px;
   justify-content: flex-start;
   align-items: center;
@@ -800,6 +804,7 @@
   background-color: #ccc;
   border-radius: 50%;
   transition: all 0.3s ease;
+  margin: 0;
 }
 .reviews .custom-pagination .swiper-pagination-bullet-active {
   width: 45px;
