@@ -653,6 +653,12 @@
   width: 420px;
   text-align: center;
 }
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  margin: 0;
+}
 .reviews__description {
   color: #4f5665;
   font-weight: 400;
