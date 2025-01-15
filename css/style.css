@@ -7,6 +7,7 @@
 .container {
   margin: 0 auto;
   max-width: 1140px;
+  overflow: visible;
 }
 
 .header__main {
@@ -809,9 +810,8 @@
 }
 .reviews .mySwiper {
   width: 100%;
-  overflow: hidden;
+  overflow: visible;
 }
-
 @media screen and (max-width: 480px) {
   .container {
     max-width: 100%;
