@@ -653,10 +653,7 @@
   width: 420px;
   text-align: center;
 }
-.swiper-horizontal > .swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
+.swiper-pagination-bullets.swiper-pagination-horizontal {
   margin: 0;
 }
 .reviews__description {
