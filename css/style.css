@@ -6,7 +6,7 @@
 
 .container {
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 1140px;
 }
 
 .header__main {
@@ -113,7 +113,7 @@
 .hero__button {
   background-color: #f53838;
   color: white;
-  padding: 17.5px 77.5px;
+  padding: 21px 77.5px;
   border-radius: 10px;
   font-size: 16px;
   font-family: "Rubik", sans-serif;
@@ -130,7 +130,7 @@
 .hero__content {
   display: flex;
   margin: 0;
-  gap: 103px;
+  gap: 1px;
   padding-top: 60px;
   flex-direction: column;
   padding-bottom: 47.5px;
@@ -162,7 +162,7 @@
   font-weight: 400;
   line-height: 30px;
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 .hero__description-highlight {
   font-weight: 500;
@@ -1157,7 +1157,7 @@
 }
 @media screen and (min-width: 1025px) {
   .container {
-    max-width: 1009px;
+    max-width: 1140px;
   }
   .swiper-slide {
     min-width: 460px;
