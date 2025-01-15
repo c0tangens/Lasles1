@@ -1177,6 +1177,8 @@
   }
   .network__partners {
     justify-content: center;
+    margin-top: 40px;
+    gap: 35px;
   }
   .network__map-image {
     max-width: 1050px;
