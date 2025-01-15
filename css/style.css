@@ -327,7 +327,7 @@
   line-height: 30px;
   margin: 0;
   margin-bottom: 60px;
-  white-space: nowrap;
+  width: 100px;
 }
 .plans__feature-text {
   color: #4f5665;
