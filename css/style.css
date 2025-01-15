@@ -143,6 +143,9 @@
   display: flex;
   align-items: center;
 }
+.hero__image {
+  width: 550px;
+}
 .hero__title {
   font-size: 50px;
   font-family: "Rubik", sans-serif;
