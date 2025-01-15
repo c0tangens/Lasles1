@@ -1,7 +1,7 @@
 var swiper = new Swiper(".mySwiper", {
     loop: true,
     slidesPerView: 3,
-    spaceBetween: 30,
+    spaceBetween: 50,
     centeredSlides: false,
     navigation: {
       nextEl: ".custom-next",
