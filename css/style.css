@@ -693,8 +693,6 @@
   width: auto;
 }
 .reviews__slide-header {
-  display: flex;
-  justify-content: space-between;
   margin: 0;
   margin-bottom: 20px;
 }
@@ -722,6 +720,7 @@
   font-family: "Rubik", sans-serif;
   line-height: 30px;
   font-size: 18px;
+  margin-top: -15px;
 }
 .reviews__profile-location {
   font-size: 14px;
@@ -738,6 +737,8 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-left: 110px;
+  margin-top: -14px;
 }
 .reviews__text {
   line-height: 30px;
@@ -746,6 +747,8 @@
   font-weight: 400;
   font-family: "Rubik", sans-serif;
   height: 120px;
+  width: 330px;
+  margin-top: -16px;
 }
 .reviews__rating-value {
   line-height: 30px;
