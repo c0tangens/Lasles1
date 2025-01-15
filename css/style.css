@@ -7,7 +7,6 @@
 .container {
   margin: 0 auto;
   max-width: 1140px;
-  overflow: visible;
 }
 
 .header__main {
@@ -278,10 +277,6 @@
 .features__icon {
   margin: 0;
 }
-.features__image {
-  margin-left: 20px;
-}
-
 .plans {
   margin: 0;
   background: linear-gradient(to bottom, #f8f8f8, #ffffff);
@@ -333,8 +328,6 @@
   line-height: 30px;
   margin: 0;
   margin-bottom: 60px;
-  width: 600px;
-  text-align: center;
 }
 .plans__feature-text {
   color: #4f5665;
@@ -462,8 +455,6 @@
   font-weight: 500;
   font-family: "Rubik", sans-serif;
   color: #0b132a;
-  text-align: center;
-  width: 380px;
 }
 .network__description {
   color: #4f5665;
@@ -471,8 +462,6 @@
   line-height: 30px;
   font-weight: 400;
   font-family: "Rubik", sans-serif;
-  text-align: center;
-  width: 520px;
 }
 .network__highlight {
   font-weight: 500;
@@ -501,7 +490,6 @@
   font-weight: 400;
   font-family: "Rubik", sans-serif;
   font-size: 16px;
-  width: 340px;
   line-height: 30px;
 }
 .footer__socials {
@@ -617,7 +605,6 @@
   font-size: 35px;
   margin: 0;
   line-height: 45px;
-  width: 360px;
   margin-bottom: 5px;
 }
 .subscription__button {
@@ -660,8 +647,6 @@
   color: #0b132a;
   margin: 0;
   margin-bottom: 20px;
-  width: 420px;
-  text-align: center;
 }
 .custom-pagination {
   margin-top: -10px;
@@ -673,8 +658,6 @@
   font-size: 16px;
   margin: 0;
   line-height: 30px;
-  width: 520px;
-  text-align: center;
 }
 .reviews__header {
   margin: 0;
@@ -821,6 +804,11 @@
     max-width: 100%;
     padding: 0 15px;
   }
+  .reviews .custom-next,
+  .reviews .custom-prev {
+    width: 40px;
+    height: 40px;
+  }
   .hero__content {
     padding: 10px 0;
   }
@@ -841,9 +829,10 @@
   .hero__content-top {
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
   }
   .hero__image {
-    width: 550px;
+    width: 100%;
   }
   .hero .hero__description {
     text-align: center;
@@ -921,6 +910,8 @@
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
+    flex-wrap: wrap;
+    gap: 30px;
   }
   .features__image-wrapper {
     order: 1;
@@ -964,6 +955,11 @@
     padding: 30px 0;
   }
   .subscription__content {
+    flex-direction: column;
+  }
+  .features__details {
+    display: flex;
+    align-items: center;
     flex-direction: column;
   }
 }
@@ -1046,6 +1042,7 @@
   .hero__content-top {
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
   }
   .hero__stats {
     flex-direction: column;
@@ -1065,9 +1062,15 @@
   .features__content {
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
   }
   .features__image-wrapper {
     order: 1;
+  }
+  .features__details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
   .features__image {
     width: 100%;
@@ -1095,6 +1098,11 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .container {
     max-width: 753px;
+  }
+  .features__details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
   .network__partners {
     flex-wrap: wrap;
@@ -1143,6 +1151,9 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  .features__content {
+    flex-wrap: wrap;
+  }
   .hero__image {
     width: 550px;
   }
@@ -1153,6 +1164,7 @@
   .hero__content-top {
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
   }
   .hero__text {
     align-items: center;
@@ -1190,8 +1202,34 @@
   .hero__image {
     max-width: 550px;
   }
-  .reviews .mySwiper {
-    overflow: visible;
+  .reviews__description {
+    width: 520px;
+    text-align: center;
+  }
+  .reviews__title {
+    width: 420px;
+    text-align: center;
+  }
+  .plans__description {
+    width: 600px;
+    text-align: center;
+  }
+  .network__title {
+    text-align: center;
+    width: 380px;
+  }
+  .network__description {
+    text-align: center;
+    width: 520px;
+  }
+  .subscription__title {
+    width: 360px;
+  }
+  .features__image {
+    margin-left: 20px;
+  }
+  .footer__description {
+    width: 340px;
   }
 }
 @media screen and (min-width: 1441px) {
