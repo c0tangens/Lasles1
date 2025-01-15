@@ -811,7 +811,6 @@
 }
 .reviews .mySwiper {
   width: 100%;
-  overflow: visible;
 }
 @media screen and (max-width: 480px) {
   .container {
@@ -1186,6 +1185,9 @@
   }
   .hero__image {
     width: 550px;
+  }
+  .swiper .mySwiper {
+    overflow: visible;
   }
 }
 @media screen and (min-width: 1441px) {
