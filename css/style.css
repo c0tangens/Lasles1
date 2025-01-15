@@ -653,8 +653,8 @@
   width: 420px;
   text-align: center;
 }
-.swiper-pagination-bullets.swiper-pagination-horizontal {
-  margin: 0;
+.custom-pagination {
+  margin-top: -10px;
 }
 .reviews__description {
   color: #4f5665;
