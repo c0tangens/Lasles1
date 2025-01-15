@@ -1184,9 +1184,9 @@
     max-width: 1050px;
   }
   .hero__image {
-    width: 550px;
+    max-width: 550px;
   }
-  .swiper .mySwiper {
+  .reviews .mySwiper {
     overflow: visible;
   }
 }
