@@ -229,7 +229,7 @@
   font-weight: 500;
   color: #0b132a;
   line-height: 50px;
-  margin: 0;
+  margin-top: 55px;
   margin-bottom: 20px;
 }
 .features__description {
@@ -251,10 +251,10 @@
 }
 .features__content {
   padding-top: 47.5px;
-  padding-bottom: 40px;
+  padding-bottom: 120px;
   display: flex;
   justify-content: space-between;
-  gap: 40px;
+  gap: 180px;
   align-items: center;
 }
 .features__list {
@@ -271,6 +271,9 @@
 }
 .features__icon {
   margin: 0;
+}
+.features__image {
+  margin-left: 20px;
 }
 
 .plans {
