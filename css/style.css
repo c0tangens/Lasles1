@@ -130,7 +130,7 @@
 .hero__content {
   display: flex;
   margin: 0;
-  gap: 1px;
+  gap: 113px;
   padding-top: 60px;
   flex-direction: column;
   padding-bottom: 47.5px;
@@ -826,7 +826,7 @@
     align-items: center;
   }
   .hero__image {
-    width: 100%;
+    width: 550px;
   }
   .hero .hero__description {
     text-align: center;
