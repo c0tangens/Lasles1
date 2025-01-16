@@ -651,6 +651,7 @@
 .custom-pagination {
   margin-top: -10px;
 }
+
 .reviews__description {
   color: #4f5665;
   font-weight: 400;
@@ -675,6 +676,10 @@
   border: solid;
   border-color: #dddddd;
   border-width: 2px;
+  transition: border-color 0.3s ease-in-out;
+}
+.swiper-slide:hover {
+  border-color: #f53838;
 }
 .reviews__slide-header {
   display: flex;
