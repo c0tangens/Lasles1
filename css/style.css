@@ -1200,8 +1200,9 @@
     max-width: 1050px;
   }
   .hero__image {
-    max-width: 600px;
-    margin-left: 50px;
+    width: 600px;
+    margin-left: 15px;
+    margin-top: -30px;
   }
   .hero__description {
     min-width: 550px;
