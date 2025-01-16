@@ -1200,7 +1200,11 @@
     max-width: 1050px;
   }
   .hero__image {
-    max-width: 550px;
+    max-width: 600px;
+    margin-left: 50px;
+  }
+  .hero__description {
+    min-width: 550px;
   }
   .reviews__description {
     width: 520px;
